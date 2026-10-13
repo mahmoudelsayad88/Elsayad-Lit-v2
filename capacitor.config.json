@@ -1,0 +1,20 @@
+{
+  "appId": "com.elsayad.lite",
+  "appName": "Elsayad Lite",
+  "webDir": "dist",
+  "android": {
+    "allowMixedContent": false,
+    "webContentsDebuggingEnabled": false
+  },
+  "plugins": {
+    "SplashScreen": {
+      "launchAutoHide": true,
+      "backgroundColor": "#05070F",
+      "androidSplashResourceName": "splash",
+      "androidScaleType": "CENTER_CROP"
+    },
+    "Media": {
+      "album": "Elsayad Lite"
+    }
+  }
+}

@@ -1,0 +1,20 @@
+# Elsayad Lite
+
+node_modules/
+dist/
+.vite/
+
+# مشروع الأندرويد يُولَّد تلقائيًا داخل GitHub Actions (npx cap add android)
+android/
+android-cap/
+.idea/
+*.iml
+
+# مفاتيح التوقيع — لا ترفعها أبدًا
+signing/
+*.jks
+*.keystore
+
+.DS_Store
+*.log
+npm-debug.log*
